@@ -1,0 +1,450 @@
+body {
+    margin: 0rem;
+    padding: 0rem;
+}
+
+.navigation-bar {
+    display: flex;
+    /* background-color: aqua; */
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 3rem;
+
+}
+
+.login {
+    /* background-color: red; */
+    padding: 1rem 2.5rem;
+    border-right: 2px solid #0000;
+}
+
+.logo-box {
+    font-family: "Yantramanav", sans-serif;
+    font-size: 32px;
+    color: #131313;
+}
+
+.nav-items {
+    /* background-color: red; */
+    display: inline;
+    font-family: "Yantramanav", sans-serif;
+
+
+
+}
+
+.nav-items ul a {
+    color: #131313;
+    text-decoration: none;
+
+    padding: 10px;
+
+    font-family: "Yantramanav", sans-serif;
+    font-size: 16px;
+}
+
+.button ul {
+     /* background-color: #00ff55;  */
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+    align-items: center;
+}
+
+.line {
+    margin: 10px;
+    width: 1px;
+    height: 51px;
+    top: 40px;
+}
+
+.button ul li {
+    list-style: none;
+    /* padding-top: 20px; */
+    justify-content: center;
+
+}
+
+.button li a {
+    text-decoration: none;
+    color: #131313;
+    /* padding-top: 12px; */
+}
+
+.rege {
+    background-color: #003E3B;
+    padding: 0.1em 1rem;
+    text-align: center;
+    padding: 1rem 1rem;
+    border-radius: 4px;
+    color: #ffffff !important;
+}
+
+.container {
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+}
+
+.big-h {
+    font-family: "Yantramanav", sans-serif;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 80px;
+    color: #131313;
+}
+.dura{
+    color: #003E3B;  
+}
+ 
+
+.small-p {
+    font-family: "Yantramanav", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #8E8E8E;
+}
+
+.get-btn {
+    background-color: #003E3B;
+    color: white;
+    border-radius: 4px;
+    padding: 0.8rem 1rem;
+    text-decoration: none;
+    font-family: Yantramanav;
+}
+
+.Nub {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.one h1 {
+    font-family: "Yantramanav", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.one p {
+    font-family: "Yantramanav", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #8E8E8E;
+}
+
+.two h1 {
+    font-family: "Yantramanav", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.two p {
+    font-family: "Yantramanav", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #8E8E8E;
+}
+
+.three h1 {
+    font-family: "Yantramanav", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.three p {
+    font-family: "Yantramanav", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #8E8E8E;
+}
+
+.sec-container {
+    background-color: #003E3B;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+    color: white;
+    align-items: center;
+}
+
+.off p {
+    font-family: "Yantramanav", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.off h3 {
+    font-family: "Yantramanav", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 62px;
+}
+
+.cont-best h5 {
+    font-family: "Yantramanav", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.cont-best p {
+    font-family: "Yantramanav", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #C3C3C3;
+}
+
+.cont-fee {
+    margin-top: 11rem;
+}
+
+.cont-year {
+    margin-top: 11rem;
+}
+
+.cont-fee p {
+    font-family: "Yantramanav", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #C3C3C3;
+}
+
+.cont-fee h5 {
+    font-family: "Yantramanav", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.cont-year p {
+    font-family: "Yantramanav", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #C3C3C3;
+}
+
+.cont-year h5 {
+    font-family: "Yantramanav", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.products {
+    text-align: center;
+    padding-top: 5rem;
+}
+
+.bed-cont {
+    display: flex;
+    justify-content: center;
+    gap: 34px;
+}
+
+.our p {
+    font-family: "Yantramanav", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #000000;
+}
+
+.our h3 {
+    font-family: "Yantramanav", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 62px;
+    color: #000000;
+}
+
+.bed-cont p {
+    font-family: "Yantramanav", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #8E8E8E;
+}
+
+.all-p {
+    color: #000000 !important;
+}
+.image-container{
+    /* background-color: #003E3B; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem 3rem;
+    
+    
+}
+.img-table{
+    background-color: white;
+    box-shadow: 2px 2px 10px lightgray;
+padding: 2rem 1rem;
+}
+.table-set{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    
+}
+.set-cont{
+    color: #000000;
+    font-family: Yantramanav;
+font-size: 20px;
+font-weight: 700;
+}
+.set-p{
+    color: #8E8E8E;
+    font-family: Yantramanav;
+font-size: 16px;
+font-weight: 500;
+}
+.dolls p{
+    font-family: Yantramanav;
+font-size: 40px;
+font-weight: 900;
+color: #000000;
+}
+/* s */
+.red{
+    color: orange;
+}
+.dolls-2 p{
+    font-family: Yantramanav;
+    font-size: 40px;
+    font-weight: 900;
+    color: #000000;    
+}
+.dolls-2 i{
+    color:yellow; 
+}
+
+.more-p{
+    font-family: Yantramanav;
+font-size: 16px;
+font-weight: 900;
+color:white ;
+align-items: center;
+background-color: #003E3B;
+padding: 1rem 2rem;
+}
+.see-more{
+   display: flex;
+   justify-content: center;
+}
+ .our-app-contianer{
+    background-color: #003E3B;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 3rem; 
+justify-content: space-between;
+ }
+
+.app-p{
+    font-family: Yantramanav;
+font-size: 20px;
+color: #8E8E8E;
+
+}
+ .apps{
+    display: flex;
+    gap: 18px;
+ }
+ .ourapp{
+    font-family: Yantramanav;
+font-size: 16px;
+color: white;
+ }
+ .ourapp h6{
+    font-family: Yantramanav;
+    font-size: 48px;
+    color: white;
+ }
+ .Our-Customers{
+    text-align: center;
+ }
+ .Customers{
+    padding-top: 3rem;
+ }
+ .Customers p{
+    font-family: Yantramanav;
+font-size: 16px;
+font-weight: 400;
+color: #000;
+ }
+ .Customers h5{
+color: #000000;
+font-family: Yantramanav;
+font-size: 48px;
+font-weight: 700;
+ }
+ .Champ{
+    font-family: Raleway;
+font-size: 20px;
+font-weight: 500;
+color: #131313;
+ }
+ .star{
+    color: yellow;
+ }
+ .grey{
+    color:grey
+ }
+ .Group426{
+    background-color: #003E3B;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 3rem;
+    height:400px;
+    align-items: center;
+    margin-top: 3rem;
+ }
+ .envelope{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+ }
+.h6-conttt{
+    font-family: Yantramanav;
+font-size: 32px;
+color: #ffffff;
+
+}
+
+ .h6-cont{
+    font-family: Yantramanav;
+    font-size: 20px;
+    letter-spacing: 0.03em;
+color: #ffffff;
+padding-top: 2rem;
+ }
+ .goodwork{
+    font-family: Yantramanav;
+font-size: 20px;
+line-height: 30px;
+letter-spacing: 0.03em;
+color: #ffffff;
+ }
+ .contact-icon{
+    color: white;
+ }
+ .icon1{
+    background: white;
+    border-radius: 5px 5px;
+    height: 2rem;
+    width: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .icon{
+    display: flex;
+    gap: 1rem;
+ }
